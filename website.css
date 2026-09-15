@@ -12,9 +12,6 @@ body {
     align-items: center;
     align-content: center;
     background-image: url('background.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 h1{
