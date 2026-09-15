@@ -5,13 +5,23 @@
   }
   
 
-body {    
+.content {    
+    position: relative;
+    z-index: 1;
     color: cyan;
     font-family: "Poetsen One";
     text-align: center;
     align-items: center;
     align-content: center;
+}
+
+.bg {
     background-image: url('background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(10px);
+    z-index: -1;
 }
 
 h1{
