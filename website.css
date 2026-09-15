@@ -8,16 +8,18 @@
 .content {    
     position: relative;
     z-index: 1;
-    color: cyan;
+    color: white;
     font-family: "Poetsen One";
     text-align: center;
     align-items: center;
     align-content: center;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: 20px;
     border-radius: 10px;
+    width: 1300px;
+    margin: 0 auto;
 }
 
 .bg {
@@ -42,14 +44,14 @@ p {
     position: fixed;
     top: 0;
     left: 0;
-    color: cyan;
+    color: white;
     padding: 10px;
-    border: 3px solid cyan;
+    border: 3px solid white;
     border-radius: 15px;
 }
 
 a{
-    color: cyan;
+    color: white;
 }
 
 iframe {
