@@ -16,9 +16,10 @@
 }
 
 .bg {
+    position: fixed;
+    inset: 0;
     background-image: url('background.png');
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
     filter: blur(10px);
     z-index: -1;
