@@ -18,14 +18,12 @@
     -webkit-backdrop-filter: blur(10px);
     padding: 20px;
     border-radius: 10px;
-    width: 1300px;
-    margin: 0 auto;
 }
 
 .bg {
     position: fixed;
     inset: 0;
-    background-image: url('background.png');
+    background-image: url('background.jpg');
     background-size: cover;
     background-position: center;
     filter: blur(10px);
