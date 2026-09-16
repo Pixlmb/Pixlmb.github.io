@@ -1,29 +1,33 @@
-.poetsen-one-regular {
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 .content {    
     position: relative;
     z-index: 1;
     color: white;
-    font-family: "Poetsen One";
+    font-family: "Roboto";
     text-align: center;
     align-items: center;
     align-content: center;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: 20px;
     border-radius: 10px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .bg {
     position: fixed;
     inset: 0;
-    background-image: url('background.jpg');
+    background-image: url('bg.png');
     background-size: cover;
     background-position: center;
     filter: blur(10px);
@@ -42,10 +46,7 @@ p {
     position: fixed;
     top: 0;
     left: 0;
-    color: white;
     padding: 10px;
-    border: 3px solid white;
-    border-radius: 15px;
 }
 
 a{
@@ -59,4 +60,12 @@ iframe {
 
 body {
     background: transparent;
+}
+
+img {
+    align-content: center;
+}
+
+a {
+    padding: 50px;
 }
