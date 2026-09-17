@@ -10,7 +10,7 @@
 .content {    
     position: relative;
     z-index: 1;
-    color: white;
+    color: black;
     font-family: "Roboto";
     text-align: center;
     align-items: center;
@@ -27,7 +27,7 @@
 .bg {
     position: fixed;
     inset: 0;
-    background-image: url('bg.png');
+    background-image: url('Images/bg.png');
     background-size: cover;
     background-position: center;
     filter: blur(10px);
@@ -50,8 +50,12 @@ p {
     z-index: 2;
 }
 
-a{
-    color: white;
+a {
+    color: black;
+}
+
+.a {
+    padding-left: 30px;;
 }
 
 iframe {
@@ -67,6 +71,10 @@ img {
     align-content: center;
 }
 
-a {
-    padding: 50px;
+.showcase {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 500px;
 }
