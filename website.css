@@ -1,17 +1,14 @@
-.roboto-font {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
+.share-tech-regular {
+  font-family: "Share Tech", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
 
 .content {    
     position: relative;
     z-index: 1;
     color: black;
-    font-family: "Roboto";
+    font-family: "Share Tech";
     text-align: center;
     align-items: center;
     align-content: center;
